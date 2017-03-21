@@ -16,12 +16,6 @@ apt-get install ruby ruby-dev			## On Debian/Ubuntu
 yum install ruby ruby-devel				## On RedHat/CentOS/Fedora
 ```
 
-* Install FPM.
-
-```bash
-gem install fpm
-```
-
 * Install packaging tools particular to your platform.
 
 ```bash
@@ -31,6 +25,13 @@ apt-get install build-essential rpm		## On Debian/Ubuntu
 ```bash
 yum install rpm-build                   ## On RedHat/CentOS/Fedora
 ```
+
+* Install FPM.
+
+```bash
+gem install fpm
+```
+
 
 * Install [SBT](http://www.scala-sbt.org/release/tutorial/Installing-sbt-on-Linux.html) and an appropriate JDK to build Marathon.
 
